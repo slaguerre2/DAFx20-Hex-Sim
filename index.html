@@ -1,0 +1,62 @@
+<html>
+  <head>
+    <title>DAFx20-Hex-Sim</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div>
+      <h1>DAFx20-Hex-Sim</h1>
+      <p>Sample audio files accompanying the paper "Simulating hexaphonic distortion using parallel comb filters" by Sebastian Laguerre and Gary P. Scavone.</p>
+      <p>Distorted pairwise note combinations of open strings notes. Each signal is normalized to &minus;12 dB RMS post-distortion.</p>
+      
+      <table>
+        <thead>
+          <tr>
+            <th>Sample</th>
+            <th>Input</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+            <tr>
+              <td>Mono distortion</td>
+              <td>Mono</td>
+              <td>The mono signal is distorted by a non-linear function.</td>
+            </tr>
+            <tr>
+              <td>Simulated distortion</td>
+              <td>Mono</td>
+              <td>The same mono signal is separated into harmonic signals by the parallel comb filter bank prior to distortion.</td>
+            </tr>
+            <tr>
+            <td>Hexaphonic distortion</td>
+            <td>Hexaphonic</td>
+            <td>The individual strings of the input signal are distorted separately.</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2>Mono distortion</h2>
+      <img src="spectrograms/00-00 Pairwise_Mono distortion.png">
+      <br>
+      <audio controls>
+        <source src="00-00 Pairwise_Mono distortion.wav" type="audio/wav">
+      </audio>
+
+      <h2>Simulated distortion</h2>
+      <img src="spectrograms/00-00 Pairwise_Simulated distortion.png">
+      <br>
+      <audio controls>
+        <source src="00-00 Pairwise_Simulated distortion.wav" type="audio/wav">
+      </audio>
+
+      <h2>Hexaphonic distortion</h2>
+      <img src="spectrograms/00-00 Pairwise_Hexaphonic distortion.png">
+      <br>
+      <audio controls>
+        <source src="00-00 Pairwise_Hexaphonic distortion.wav" type="audio/wav">
+          </audio>
+      </div>
+  </body>
+</html>
+

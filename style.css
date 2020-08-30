@@ -1,0 +1,30 @@
+/* Enabling dark mode */
+:root {
+  color-scheme: light dark;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+div {
+  width: 800px;
+  margin: auto;
+  padding: 1em;
+}
+
+h1, h2 {
+  border-bottom: 1px solid gray;
+  padding-bottom: .3em;
+  border-top: 1em;
+}
+
+table, th, td {
+  border-collapse: collapse;
+  border: 1px solid gray;
+  padding: 6px 13px;
+}
+
+img, audio {
+  width: 800px;
+}
